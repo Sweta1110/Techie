@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:text="Techie"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            />
+
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="80dp"
+            android:addStatesFromChildren="true"
+            android:background="@drawable/background_img"
+            android:elevation="5dp">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/background_img"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/coderift" />
+
+
+                <TextView
+                    android:id="@+id/view_parakram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="63dp"
+                    android:layout_marginStart="23dp"
+                    android:background="@drawable/back"
+                    android:gravity="left"
+                    android:padding="8dp"
+                    android:text="@string/click_to_view"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+            <ScrollView
+                android:id="@+id/relativeLayout_se2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:scrollbars="vertical"
+                android:elevation="5dp"
+                android:nestedScrollingEnabled="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="5dp">
+                    <TextView
+                        android:id="@+id/text_des"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:text="@string/desc"/>
+
+                    <TextView
+                        android:id="@+id/text_description"
+                        android:padding="8dp"
+                        android:layout_below="@+id/text_des"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="@color/textcolordescription"
+
+                        android:text="bbvnjhkd dhlnsjg bdjdbdk bdkdhdbdk nfhdjdkdke dbndjkhbbnk fhd hhdjkd dbhhjd dbjsbbsjs bdbjjd bcnh bcihdi bcxisdhufi bcksdjfh bjdh bfksj bkfaj nksahil hfasihf hfksal nvif fos nskj fnskj yreoi nwohiv fwoi hwfoiu chfowi fnn dwo;he dnbwj;ehwe whi;ufn wehfo;if  hweioofn ewiufnf ueowi;un jofweiufwn feoniuwf eiuf foeiuiof ui mnk khjj nkh hj gu jkvhukg bjkjgu uky vh guy  bhjg iu  ghjguk  hg  ghu kyui  hgjgl vhjgiug hugilu j gpi  vh i"/>
+                    <TextView
+                        android:id="@+id/text_sche"
+                        android:layout_width="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_below="@+id/text_description"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:text="@string/schedule"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/text_schedule"
+                        android:padding="8dp"
+                        android:layout_below="@+id/text_sche"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="@color/textcolordescription"
+                        android:text="Still to be updated"/>
+
+
+                    <TextView
+                        android:id="@+id/btn_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp"
+                        android:layout_below="@+id/text_schedule"
+                        android:text="@string/btnback"
+                        android:padding="8dp" />
+
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </ViewFlipper>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+android:layout_marginLeft="18dp"      android:padding="8dp"
+            android:text="FAQs"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:textColor="#c6ff00"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is entry to BCE Free?"
+            android:layout_below="@+id/text1"
+            android:layout_margin="8dp"
+            android:textColor="#c6ff00"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The entry has been and will always be free.All you need is a valid college/school ID."
+            android:layout_below="@+id/text2"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How do we reach to BCE campus?"
+            android:layout_below="@+id/text3"
+            android:layout_margin="8dp"
+            android:textColor="#c6ff00"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The campus is located in Sabour,near Bahadurpur.The nearest local station is Sabour,and the campus is easily accesible by autos."
+            android:layout_below="@+id/text4"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What type of accommodation will be provided?"
+            android:layout_below="@+id/text5"
+            android:layout_margin="8dp"
+            android:textColor="#c6ff00"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accommodation will be provided to boys and girls in a well secure seperate hostels inside the campus."
+            android:layout_below="@+id/text6"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the exact procedure to be followed after we reach BCE campus?"
+            android:layout_below="@+id/text7"
+            android:layout_margin="8dp"
+            android:textColor="#c6ff00"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You need to report to the Management team along with your college ID."
+            android:layout_below="@+id/text8"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Does the accommodation fee include the food facility as well?"
+            android:layout_below="@+id/text9"
+            android:layout_margin="8dp"
+            android:textColor="#c6ff00"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No,the accommodation fee doesn't include food.However, there will be mess facility inside hostels where you can pay and eat."
+            android:layout_below="@+id/text10"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Will the team members be given accommodation at the same place?"
+            android:layout_below="@+id/text11"
+            android:layout_margin="8dp"
+            android:textColor="#c6ff00"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We will try our best to provide you this arrangement."
+            android:layout_below="@+id/text12"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"/>
+
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Can I enter BCE campus anytime?"
+            android:layout_below="@+id/text13"
+            android:layout_margin="8dp"
+            android:textColor="#c6ff00"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No,only between 6 AM to 9 PM."
+            android:layout_below="@+id/text14"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are there ATM available inside?"
+            android:layout_below="@+id/text15"
+            android:layout_margin="8dp"
+            android:textColor="#c6ff00"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/text17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes,ATM are available."
+            android:layout_below="@+id/text16"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/text18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What to do if any ambigous situation?"
+            android:layout_below="@+id/text17"
+            android:layout_margin="8dp"
+            android:textColor="#c6ff00"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/text19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decision from Team Technoriti will be considered as final."
+            android:layout_below="@+id/text18"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+</ScrollView>

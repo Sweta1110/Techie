@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:elevation="5dp"
+            android:background="@color/colorPrimary"
+            android:text="Fundoz"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            />
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="80dp"
+            android:addStatesFromChildren="true"
+            android:background="@drawable/background_img"
+            android:elevation="5dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_ex1"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/background_img"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/artcraft" />
+
+
+                <TextView
+                    android:id="@+id/view_exhibition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="74dp"
+                    android:layout_marginStart="19dp"
+                    android:background="@drawable/back"
+                    android:gravity="left"
+                    android:padding="8dp"
+                    android:text="@string/click_to_view"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+            <ScrollView
+                android:id="@+id/relativeLayout_se1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:scrollbars="vertical"
+                android:nestedScrollingEnabled="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text_des"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/text_back"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="@string/desc"/>
+
+                    <TextView
+                        android:id="@+id/text_description"
+                        android:padding="8dp"
+                        android:layout_below="@+id/text_des"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="bbvnjhkd dhlnsjg bdjdbdk bdkdhdbdk nfhdjdkdke dbndjkhbbnk fhd hhdjkd dbhhjd dbjsbbsjs bdbjjd bcnh bcihdi bcxisdhufi bcksdjfh bjdh bfksj bkfaj nksahil hfasihf hfksal nvif fos nskj fnskj yreoi nwohiv fwoi hwfoiu chfowi fnn dwo;he dnbwj;ehwe whi;ufn wehfo;if  hweioofn ewiufnf ueowi;un jofweiufwn feoniuwf eiuf foeiuiof ui mnk khjj nkh hj gu jkvhukg bjkjgu uky vh guy  bhjg iu  ghjguk  hg  ghu kyui  hgjgl vhjgiug hugilu j gpi  vh i"/>
+                    <TextView
+                        android:id="@+id/text_sche"
+                        android:layout_width="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/text_back"
+                        android:textSize="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_below="@+id/text_description"
+                        android:gravity="center"
+                        android:text="@string/schedule"/>
+
+                    <TextView
+                        android:id="@+id/text_schedule"
+                        android:padding="8dp"
+                        android:layout_below="@+id/text_sche"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="bbvnjhkd dhlnsjg bdjdbdk bdkdhdbdk nfhdjdkdke dbndjkhbbnk fhd hhdjkd dbhhjd dbjsbbsjs bdbjjd bcnh bcihdi bcxisdhufi bcksdjfh bjdh bfksj bkfaj nksahil hfasihf hfksal nvif fos nskj fnskj yreoi nwohiv fwoi hwfoiu chfowi fnn dwo;he dnbwj;ehwe whi;ufn wehfo;if  hweioofn ewiufnf ueowi;un jofweiufwn feoniuwf eiuf foeiuiof ui mnk khjj nkh hj gu jkvhukg bjkjgu uky vh guy  bhjg iu  ghjguk  hg  ghu kyui  hgjgl vhjgiug hugilu j gpi  vh i"/>
+
+                    <Button
+                        android:id="@+id/get_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_schedule"
+                        android:text="get rules"
+                        android:layout_margin="16dp"
+                        android:background="#80006064"
+                        android:elevation="5dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="5dp"
+                        android:background="#80006064"
+                        android:layout_alignBaseline="@+id/get_button"
+                        android:layout_alignBottom="@+id/get_button"
+                        android:layout_alignEnd="@+id/text_sche"
+                        android:text="Register" />
+
+
+                    <TextView
+                        android:id="@+id/btn_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp"
+                        android:layout_below="@+id/btn_register"
+                        android:text="@string/btnback"
+                        android:padding="8dp" />
+
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </ViewFlipper>
+        <ViewFlipper
+            android:id="@+id/viewFlipper1"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_below="@+id/viewFlipper"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:addStatesFromChildren="true"
+            android:background="@drawable/background_img"
+            android:elevation="5dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_ex3"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/imageView_ex1"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/background_img"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/artcraft" />
+
+
+                <TextView
+                    android:id="@+id/view_exhibition1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="74dp"
+                    android:layout_marginStart="19dp"
+                    android:background="@drawable/back"
+                    android:gravity="left"
+                    android:padding="8dp"
+                    android:text="@string/click_to_view"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+            <ScrollView
+                android:id="@+id/relativeLayout_se2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:scrollbars="vertical"
+                android:nestedScrollingEnabled="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text_des1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/text_back"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="@string/desc"/>
+
+                    <TextView
+                        android:id="@+id/text_description1"
+                        android:padding="8dp"
+                        android:layout_below="@+id/text_des1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="bbvnjhkd dhlnsjg bdjdbdk bdkdhdbdk nfhdjdkdke dbndjkhbbnk fhd hhdjkd dbhhjd dbjsbbsjs bdbjjd bcnh bcihdi bcxisdhufi bcksdjfh bjdh bfksj bkfaj nksahil hfasihf hfksal nvif fos nskj fnskj yreoi nwohiv fwoi hwfoiu chfowi fnn dwo;he dnbwj;ehwe whi;ufn wehfo;if  hweioofn ewiufnf ueowi;un jofweiufwn feoniuwf eiuf foeiuiof ui mnk khjj nkh hj gu jkvhukg bjkjgu uky vh guy  bhjg iu  ghjguk  hg  ghu kyui  hgjgl vhjgiug hugilu j gpi  vh i"/>
+                    <TextView
+                        android:id="@+id/text_sche1"
+                        android:layout_width="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/text_back"
+                        android:textSize="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_below="@+id/text_description1"
+                        android:gravity="center"
+                        android:text="@string/schedule"/>
+
+                    <TextView
+                        android:id="@+id/text_schedule1"
+                        android:padding="8dp"
+                        android:layout_below="@+id/text_sche1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="bbvnjhkd dhlnsjg bdjdbdk bdkdhdbdk nfhdjdkdke dbndjkhbbnk fhd hhdjkd dbhhjd dbjsbbsjs bdbjjd bcnh bcihdi bcxisdhufi bcksdjfh bjdh bfksj bkfaj nksahil hfasihf hfksal nvif fos nskj fnskj yreoi nwohiv fwoi hwfoiu chfowi fnn dwo;he dnbwj;ehwe whi;ufn wehfo;if  hweioofn ewiufnf ueowi;un jofweiufwn feoniuwf eiuf foeiuiof ui mnk khjj nkh hj gu jkvhukg bjkjgu uky vh guy  bhjg iu  ghjguk  hg  ghu kyui  hgjgl vhjgiug hugilu j gpi  vh i"/>
+
+                    <Button
+                        android:id="@+id/get_button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_schedule1"
+                        android:text="get rules"
+                        android:layout_margin="16dp"
+                        android:background="#80006064"
+                        android:elevation="5dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_register1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="5dp"
+                        android:background="#80006064"
+                        android:layout_alignBaseline="@+id/get_button1"
+                        android:layout_alignBottom="@+id/get_button1"
+                        android:layout_alignEnd="@+id/text_sche1"
+                        android:text="Register" />
+
+
+                    <TextView
+                        android:id="@+id/btn_back1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp"
+                        android:layout_below="@+id/btn_register1"
+                        android:text="@string/btnback"
+                        android:padding="8dp" />
+
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </ViewFlipper>
+        <ViewFlipper
+            android:id="@+id/viewFlipper2"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/viewFlipper1"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:addStatesFromChildren="true"
+            android:background="@drawable/background_img"
+            android:elevation="5dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_ex5"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/imageView_ex2"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/background_img"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/artcraft" />
+
+
+                <TextView
+                    android:id="@+id/view_exhibition2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="74dp"
+                    android:layout_marginStart="19dp"
+                    android:background="@drawable/back"
+                    android:gravity="left"
+                    android:padding="8dp"
+                    android:text="@string/click_to_view"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+            <ScrollView
+                android:id="@+id/relativeLayout_se3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:scrollbars="vertical"
+                android:nestedScrollingEnabled="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text_des2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/text_back"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="@string/desc"/>
+
+                    <TextView
+                        android:id="@+id/text_description2"
+                        android:padding="8dp"
+                        android:layout_below="@+id/text_des2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="bbvnjhkd dhlnsjg bdjdbdk bdkdhdbdk nfhdjdkdke dbndjkhbbnk fhd hhdjkd dbhhjd dbjsbbsjs bdbjjd bcnh bcihdi bcxisdhufi bcksdjfh bjdh bfksj bkfaj nksahil hfasihf hfksal nvif fos nskj fnskj yreoi nwohiv fwoi hwfoiu chfowi fnn dwo;he dnbwj;ehwe whi;ufn wehfo;if  hweioofn ewiufnf ueowi;un jofweiufwn feoniuwf eiuf foeiuiof ui mnk khjj nkh hj gu jkvhukg bjkjgu uky vh guy  bhjg iu  ghjguk  hg  ghu kyui  hgjgl vhjgiug hugilu j gpi  vh i"/>
+                    <TextView
+                        android:id="@+id/text_sche2"
+                        android:layout_width="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/text_back"
+                        android:textSize="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_below="@+id/text_description2"
+                        android:gravity="center"
+                        android:text="@string/schedule"/>
+
+                    <TextView
+                        android:id="@+id/text_schedule2"
+                        android:padding="8dp"
+                        android:layout_below="@+id/text_sche2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="bbvnjhkd dhlnsjg bdjdbdk bdkdhdbdk nfhdjdkdke dbndjkhbbnk fhd hhdjkd dbhhjd dbjsbbsjs bdbjjd bcnh bcihdi bcxisdhufi bcksdjfh bjdh bfksj bkfaj nksahil hfasihf hfksal nvif fos nskj fnskj yreoi nwohiv fwoi hwfoiu chfowi fnn dwo;he dnbwj;ehwe whi;ufn wehfo;if  hweioofn ewiufnf ueowi;un jofweiufwn feoniuwf eiuf foeiuiof ui mnk khjj nkh hj gu jkvhukg bjkjgu uky vh guy  bhjg iu  ghjguk  hg  ghu kyui  hgjgl vhjgiug hugilu j gpi  vh i"/>
+
+                    <Button
+                        android:id="@+id/get_button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/text_schedule2"
+                        android:text="get rules"
+                        android:layout_margin="16dp"
+                        android:background="#80006064"
+                        android:elevation="5dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_register2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="5dp"
+                        android:background="#80006064"
+                        android:layout_alignBaseline="@+id/get_button2"
+                        android:layout_alignBottom="@+id/get_button2"
+                        android:layout_alignEnd="@+id/text_sche2"
+                        android:text="Register" />
+
+
+                    <TextView
+                        android:id="@+id/btn_back2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:layout_below="@id/btn_register2"
+                        android:textSize="24sp"
+                        android:text="@string/btnback"
+                        android:padding="8dp" />
+
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </ViewFlipper>
+    </RelativeLayout>
+</ScrollView>

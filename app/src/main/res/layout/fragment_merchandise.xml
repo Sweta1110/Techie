@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.technoriti.MerchandiseFragment"
+    android:background="@color/colorPrimary">
+
+    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/merchandisetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:text="Merchandise"
+            android:padding="8dp"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/back"
+            android:textColor="#c6ff00"
+            android:textSize="30sp" />
+        <ImageView
+            android:id="@+id/mer_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/merchandisetext"
+            android:src="@drawable/technotshirt"
+            />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="100dp"
+        android:layout_alignStart="@+id/merchandisetext"
+        android:layout_below="@+id/mer_imageview"
+        android:layout_gravity="bottom|start"
+        android:layout_marginTop="22dp"
+        android:text="Take Part in the Fest with much more Enthusiasm !!Wear the Exclusive Technoriti Merchandise...Book Yours Now!!"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/compose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/call"
+        android:layout_below="@+id/call"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/ic_email_white_24dp"
+        app:backgroundTint="#B71C1C"
+        app:fabSize="normal" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/merchandisetext"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="19dp"
+        android:src="@mipmap/ic_call_white_24dp"
+        app:backgroundTint="#4CAF50"
+        app:fabSize="normal"
+        app:layout_anchor="@id/compose"
+        app:layout_anchorGravity="top" />
+
+</RelativeLayout>
+
+</ScrollView>

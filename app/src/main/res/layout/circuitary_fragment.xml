@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/umangimage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/circuitry"
+                android:scaleType="fitXY"
+                />
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:layout_below="@+id/umangimage"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/umangdesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/textcolordescription"
+                        android:text="As nervous system controls the functioning of a human body, electronic circuits control the functioning of a bot.We present you, CIRCUITRY, an event in which you have to construct circuits for various given problems.The less time you take, the more the chance of winning.A great chance to show your geek and studious side."/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/umangdesc"
+                        android:textSize="20sp"
+                        android:padding="3dp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="8dp"
+                        android:text="Schedule:-"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/umangdesc"
+                        android:textSize="20sp"
+                        android:padding="3dp"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/textcolordescription"
+                        android:text="Still to be updated"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="16dp"
+                        android:textStyle="normal"
+                        android:text="GEt Rules"
+                        android:background="#cc006064"
+                        android:textColor="@color/butoontextcolor"/>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
